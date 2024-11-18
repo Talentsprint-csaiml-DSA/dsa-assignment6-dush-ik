@@ -13,4 +13,3 @@ def box_packing(box_list):
         dp[i] = max(dp[j] + 1, dp[i])
   return max(dp)
 
-print(box_packing([(6, 1, 3), (5, 4, 2), (7, 5, 4), (6, 2, 5), (5, 5, 3)]))
